@@ -93,11 +93,4 @@ def topsis(sourcefile,weight,impact,destinationfile):
     data_frame.to_csv(destinationfile,index=False)
 
 
-if __name__=='__main__':
-
-    source=sys.argv[1]
-    weights=sys.argv[2]
-    impact=sys.argv[3]
-    destinationfile=sys.argv[4]
-    topsis(source,weights,impact,destinationfile)
 
